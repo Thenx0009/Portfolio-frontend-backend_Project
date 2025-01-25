@@ -70,7 +70,7 @@ A feature-rich web application designed to help users manage their stock portfol
 **Deployment:**
 - Frontend: ***Vercel***
 - Backend: ***Render***
-- Postgres Database: ***Neon PostgreSQL
+- Postgres Database: ***Neon PostgreSQL***
 - Containerization: ***Docker***
 
 ### Project Structure
