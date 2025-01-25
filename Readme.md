@@ -146,4 +146,51 @@ mvn clean package
 ```bash
 java -jar target/portfolio-backend-0.0.1-SNAPSHOT.jar
 ```
-5.Access the server at `http://localhost:8080`.
+5. Access the server at `http://localhost:8080`.
+
+**Docker Setup (Backend)**
+1. Build the Docker image:
+```bash
+docker build -t portfolio-backend .
+```
+2. Run the Docker container
+```bash
+docker run -p 8080:8080 -e DATASOURCE_URL=<db-url> -e DATASOURCE_USER=<db-user> -e DATASOURCE_PASSWORD=<db-password> portfolio-backend
+```
+
+### API Endpoints
+
+**Stocks:**
+
+- `GET /api/stocks`: Fetch all stocks.
+- `POST /api/stocks`: Add a new stock.
+- `GET /api/stocks/{id}`: Fetch a stock by ID.
+- `PUT /api/stocks/{id}`: Update stock details.
+- `DELETE /api/stocks/{id}`: Delete a stock.
+
+**Portfolio:**
+
+- `GET /api/stocks/portfolio`: Fetch portfolio entries.
+- `POST /api/stocks/portfolio`: Add a portfolio entry.
+
+**Dashboard:**
+
+- `GET /api/stocks/dashboard`: Fetch total portfolio value, top-performing stock, and distribution.
+
+**Real-Time Prices:**
+
+- `GET /api/stocks/real-time-price/{ticker}`: Fetch the real-time price of a stock.
+
+### Deployment Links
+
+- Frontend: [Portfolio Tracker Frontend](http://link-to-frontend)
+- Backend: [Portfolio Tracker Backend](http://link-to-backend)
+
+### Screenshots
+- Dashboard:
+- Stock Management:
+- Real-Time Price Checker:
+
+## License 
+
+This project is open-source and available under the [MIT License](LICENSE)
