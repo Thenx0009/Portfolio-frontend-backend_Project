@@ -87,3 +87,40 @@ src/
 ├── App.js                   # Main app component with route definitions.
 └── index.js                 # Entry point for the React app.
 ```
+**Backend:**
+```
+src/
+├── main/
+│   ├── java/com/example/portfolio_backend/
+│   │   ├── configuration/    # CorsConfig for CORS settings.
+│   │   ├── controller/       # REST controllers for API endpoints.
+│   │   ├── entity/           # Entities: Portfolio and Stock.
+│   │   ├── repository/       # JPA repositories for database operations.
+│   │   ├── service/          # Business logic for portfolio and stock management.
+│   │   └── PortfolioBackendApplication.java # Main Spring Boot application.
+│   └── resources/
+│       ├── application.properties # Backend configuration.
+```
+
+### Setup Instructions
+**Prerequisites**
+- Node.js and npm (for frontend)
+- Java 17 and Maven (for backend)
+- PostgreSQL database
+- Docker (optional, for backend containerization)
+
+**Frontend Setup**
+1. Clone the frontend repository:
+```bash
+git clone <frontend-repo-url>
+cd frontend
+```
+2.Install dependencies:
+```bash
+npm install
+```
+3.Start the development server
+```bash
+npm run dev
+```
+4. Access the app at `http://localhost:5173`.
