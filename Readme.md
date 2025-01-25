@@ -68,9 +68,9 @@ A feature-rich web application designed to help users manage their stock portfol
 - Finnhub API for fetching real-time stock prices.
 
 **Deployment:**
-- Frontend: Vercel
-- Backend: Render
-- Containerization: Docker
+- Frontend: ***Vercel***
+- Backend: ***Render***
+- Containerization: ***Docker***
 
 ### Project Structure
 
