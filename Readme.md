@@ -75,6 +75,7 @@ A feature-rich web application designed to help users manage their stock portfol
 ### Project Structure
 
 **Frontend:**
+```
 src/
 ├── components/
 │   ├── Dashboard.js         # Dashboard component for portfolio metrics.
@@ -85,3 +86,4 @@ src/
 │   └── NavBar.js            # Navigation bar for page routing.
 ├── App.js                   # Main app component with route definitions.
 └── index.js                 # Entry point for the React app.
+```
