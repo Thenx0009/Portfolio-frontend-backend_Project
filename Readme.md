@@ -1,7 +1,7 @@
 # Portfolio Tracker Application
 A feature-rich web application designed to help users manage their stock portfolios, track real-time stock prices, and visualize performance metrics. Built with modern web technologies and deployed using cloud-based services, the application offers seamless and dynamic portfolio management.
 
-## [Deployed Link](https://stockfolio-beige.vercel.app){:target="_blank"}
+## <a href="https://stockfolio-beige.vercel.app" target="_blank">Deployed Link</a>
 
 ## Features
 
