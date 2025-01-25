@@ -78,28 +78,30 @@ A feature-rich web application designed to help users manage their stock portfol
 ```
 src/
 ├── components/
-│   ├── Dashboard.js         # Dashboard component for portfolio metrics.
-│   ├── StockForm.js         # Form for adding or editing stock details.
-│   ├── StockTable.js        # Displays stock holdings in a table format.
-│   ├── StockPrice.js        # Real-time stock price checker.
-│   ├── Portfolio.js         # Portfolio management component.
-│   └── NavBar.js            # Navigation bar for page routing.
-├── App.js                   # Main app component with route definitions.
-└── index.js                 # Entry point for the React app.
+│   ├── Dashboard.js         
+│   ├── StockForm.js         
+│   ├── StockTable.js        
+│   ├── StockPrice.js        
+│   ├── Portfolio.js         
+│   └── NavBar.js            
+├── App.js                   
+└── index.js                 
 ```
 **Backend:**
 ```
 src/
 ├── main/
 │   ├── java/com/example/portfolio_backend/
-│   │   ├── configuration/    # CorsConfig for CORS settings.
-│   │   ├── controller/       # REST controllers for API endpoints.
-│   │   ├── entity/           # Entities: Portfolio and Stock.
-│   │   ├── repository/       # JPA repositories for database operations.
-│   │   ├── service/          # Business logic for portfolio and stock management.
-│   │   └── PortfolioBackendApplication.java # Main Spring Boot application.
+│   │   ├── configuration/    
+│   │   ├── controller/       
+│   │   ├── entity/           
+│   │   ├── repository/       
+│   │   ├── service/          
+│   │   └── PortfolioBackendApplication.java 
 │   └── resources/
-│       ├── application.properties # Backend configuration.
+│       ├── application.properties 
+├──.env
+└──Dockerfile
 ```
 
 ### Setup Instructions
