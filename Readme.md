@@ -44,10 +44,10 @@ A feature-rich web application designed to help users manage their stock portfol
 - PostgreSQL with JPA and Hibernate for efficient and scalable data management.
 
 ### Deployment
-**Frontend:** Hosted on Vercel.  
-**Backend:** Deployed on Render with a Dockerized image.  
-**Database:** Hosted on a PostgreSQL instance locally or via a cloud provider.  
-**Docker:** Backend containerized for portability and ease of deployment.
+- **Frontend:** Hosted on Vercel.  
+- **Backend:** Deployed on Render with a Dockerized image.  
+- **Database:** Hosted on a PostgreSQL instance locally or via a cloud provider.  
+- **Docker:** Backend containerized for portability and ease of deployment.
 
 ### Tech Stack
 
