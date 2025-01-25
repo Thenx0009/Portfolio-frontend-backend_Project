@@ -106,16 +106,16 @@ src/
 
 ### Setup Instructions
 **Prerequisites**
-- Node.js and npm (for frontend)
-- Java 17 and Maven (for backend)
+- Node.js and npm 
+- Java 17 and Maven 
 - PostgreSQL database
-- Docker (optional, for backend containerization)
+- Docker (for backend containerization)
 
 **Frontend Setup**
 1. Clone the frontend repository:
 ```bash
-git clone <frontend-repo-url>
-cd frontend
+git clone https://github.com/Thenx0009/portfolio_frontend.git
+cd portfolio-frontend
 ```
 2.Install dependencies:
 ```bash
@@ -130,8 +130,8 @@ npm run dev
 **Backend Setup**
 1. Clone the backend repository:
 ```bash
-git clone <backend-repo-url>
-cd backend
+git clone https://github.com/Thenx0009/portfolio-backend.git
+cd portfolio-backend
 ```
 2. Configure the application.properties file:
 ```properties
@@ -185,8 +185,8 @@ docker run -p 8080:8080 -e DATASOURCE_URL=<db-url> -e DATASOURCE_USER=<db-user> 
 
 ### Deployment Links
 
-- Frontend: [Portfolio Tracker Frontend](http://link-to-frontend)
-- Backend: [Portfolio Tracker Backend](http://link-to-backend)
+- Frontend: [Portfolio Tracker Frontend](stockfolio-beige.vercel.app)
+- Backend: [Portfolio Tracker Backend](https://portfolio-backend-latest-xngv.onrender.com)
 
 ### Screenshots
 - Dashboard:
