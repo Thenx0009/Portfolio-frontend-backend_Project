@@ -1,32 +1,34 @@
 # Portfolio Tracker Application
 A feature-rich web application designed to help users manage their stock portfolios, track real-time stock prices, and visualize performance metrics. Built with modern web technologies and deployed using cloud-based services, the application offers seamless and dynamic portfolio management.
 
+## [Deployed Link](stockfolio-beige.vercel.app)
+
 ## Features
 
 ### Frontend
-**Dashboard:**
+1. **Dashboard:**
 - Displays:
   - Total portfolio value updated in real-time.
   - Top-performing stock by percentage gain.
   - Portfolio distribution visualization with a responsive pie chart.
 
-**Stock Management:**
+2. **Stock Management:**
 - Add, edit, and delete stocks with an intuitive form-based interface.
 - View and interact with a detailed table displaying stock details, including:
   - Stock name, ticker, quantity, buy price, current price, and P&L (Profit/Loss).
 
-**Wishlist:**
+3. **Wishlist:**
 - Save stocks for later tracking with local persistence using localStorage.
 - Manage wishlist visibility and actions like removing stocks or buying from the wishlist.
 
-**Real-Time Price Checker:**
+4. **Real-Time Price Checker:**
 - Fetch real-time stock prices using a ticker symbol with API integration.
 
-**Responsive Design:**
+5. **Responsive Design:**
 - Built with React and TailwindCSS to provide a smooth experience across devices.
 
 ### Backend
-**RESTful API:**
+1. **RESTful API:**
 - Endpoints for CRUD operations on stocks and portfolio entries.
 - Real-time stock price fetching using the Finnhub API.
 - Dashboard API for portfolio insights, including:
@@ -34,13 +36,13 @@ A feature-rich web application designed to help users manage their stock portfol
   - Top-performing stock.
   - Portfolio distribution.
 
-**Dynamic Calculations:**
+2. **Dynamic Calculations:**
 - Portfolio value and metrics updated dynamically using real-time stock prices.
 
-**Security:**
+3. **Security:**
 - CORS configured to allow secure interaction with the frontend.
 
-**Database:**
+4. **Database:**
 - PostgreSQL with JPA and Hibernate for efficient and scalable data management.
 
 ### Deployment
@@ -51,23 +53,23 @@ A feature-rich web application designed to help users manage their stock portfol
 
 ### Tech Stack
 
-**Frontend:**
+1. **Frontend:**
 - React
 - React Router
 - TailwindCSS
 - Framer Motion (for animations)
 - Chart.js (for portfolio distribution pie chart)
 
-**Backend:**
+2. **Backend:**
 - Java with Spring Boot
 - PostgreSQL
 - JPA & Hibernate
 - RestTemplate (for Finnhub API integration)
 
-**APIs:**
+3. **APIs:**
 - Finnhub API for fetching real-time stock prices.
 
-**Deployment:**
+4. **Deployment:**
 - Frontend: ***Vercel***
 - Backend: ***Render***
 - Postgres Database: ***Neon PostgreSQL***
