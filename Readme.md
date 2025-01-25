@@ -198,7 +198,7 @@ docker run -p 8080:8080 -e DATASOURCE_URL=<db-url> -e DATASOURCE_USER=<db-user> 
 - Portfolio:
  ![Portfolio Screenshot](screenshots/portfolio.png)
 - Real-Time Price Checker:
-![Real-Time Price Checker Screenshot](screenshots/price-checker.png)
+![Real-Time Price Checker Screenshot](screenshots/price.png)
 
 ## License 
 
