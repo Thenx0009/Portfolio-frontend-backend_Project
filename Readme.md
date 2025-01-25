@@ -191,7 +191,7 @@ docker run -p 8080:8080 -e DATASOURCE_URL=<db-url> -e DATASOURCE_USER=<db-user> 
 ### Screenshots
 - Dashboard:
  ![Dashboard Screenshot](screenshots/dashboard.png)
-- Add
+- Add Form: 
  ![Add Stock Screenshot](screenshots/add.png)
 - Stock Management:
  ![Stock Management: Screenshot](screenshots/stocks.png)
