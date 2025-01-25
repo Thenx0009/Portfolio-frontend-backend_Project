@@ -190,9 +190,15 @@ docker run -p 8080:8080 -e DATASOURCE_URL=<db-url> -e DATASOURCE_USER=<db-user> 
 
 ### Screenshots
 - Dashboard:
- [screenshots\add.png]
+ ![Dashboard Screenshot](screenshots/dashboard.png)
+- Add
+ ![Add Stock Screenshot](screenshots/add.png)
 - Stock Management:
+ ![Stock Management: Screenshot](screenshots/stocks.png)
+- Portfolio:
+ ![Portfolio Screenshot](screenshots/portfolio.png)
 - Real-Time Price Checker:
+![Real-Time Price Checker Screenshot](screenshots/price-checker.png)
 
 ## License 
 
