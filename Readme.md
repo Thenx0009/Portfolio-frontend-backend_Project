@@ -124,3 +124,26 @@ npm install
 npm run dev
 ```
 4. Access the app at `http://localhost:5173`.
+
+**Backend Setup**
+1. Clone the backend repository:
+```bash
+git clone <backend-repo-url>
+cd backend
+```
+2. Configure the application.properties file:
+```properties
+spring.datasource.url=jdbc:postgresql://<db-host>:<db-port>/<db-name>
+spring.datasource.username=<db-username>
+spring.datasource.password=<db-password>
+frontend.url=http://localhost:5173
+```
+3. Build the application:
+```bash
+mvn clean package
+```
+4. Run the backend server:
+```bash
+java -jar target/portfolio-backend-0.0.1-SNAPSHOT.jar
+```
+5.Access the server at `http://localhost:8080`.
